@@ -1,6 +1,7 @@
 <%@ include file="../init.jsp"%>
 <div class="container-fluid-1280">
-	<h1>Title: ${assignment.title}</h1>
+
+	<h1>Title: ${assignment.getTitleCurrentValue()}</h1>
 	<h2>
 		<liferay-ui:message key="assignment-information" />
 	</h2>
